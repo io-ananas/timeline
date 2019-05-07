@@ -41,3 +41,17 @@ function slidingRadiation() {
 }
 
 // 4 CMB
+let light1 = document.querySelector("#lightOne");
+let light2 = document.querySelector("#lightTwo");
+let light3 = document.querySelector("#lightThree");
+let light4 = document.querySelector("#lightFour");
+let lightButton = document.querySelector("#point4");
+
+lightButton.addEventListener("click", showerLights);
+
+function showerLights() {
+  light1.classList.add("shower");
+  light2.classList.add("shower");
+  light3.classList.add("shower");
+  light4.classList.add("shower");
+}

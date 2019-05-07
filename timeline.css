@@ -289,9 +289,14 @@ body {
   animation: blink 1s alternate-reverse infinite;
 }
 
-#light1_1_.shower,
-#light2_1_.shower {
-  animation: showering 2s ease-out alternate infinite;
+#lightOne.shower,
+#lightFour.shower {
+  animation: showering 1s linear forwards;
+}
+
+#lightTwo.shower,
+#lightThree.shower {
+  animation: showeringUp 0.5s linear forwards;
 }
 
 @keyframes showering {
@@ -299,7 +304,17 @@ body {
     transform: none;
   }
   to {
-    transform: translateX(100px);
-    transform: translateY(-100px);
+    transform: translate(-200px, 120px);
+    opacity: 0;
+  }
+}
+
+@keyframes showeringUp {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(200px, -120px);
+    opacity: 0;
   }
 }
