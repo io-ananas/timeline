@@ -1,0 +1,305 @@
+body {
+  border: 0;
+  margin: 0;
+}
+
+.st0 {
+  fill: #ffffff;
+}
+.st1 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+.st2 {
+  opacity: 0.5;
+}
+.st3 {
+  fill: #161156;
+}
+.st4 {
+  opacity: 0.7;
+}
+.st5 {
+  fill: #f95f30;
+}
+.st6 {
+  fill: #f9a048;
+}
+.st7 {
+  fill: #f9ea98;
+}
+.st8 {
+  fill: #fcf1cd;
+}
+.st9 {
+  fill: url(#SVGID_1_);
+}
+.st10 {
+  fill: none;
+  stroke: url(#SVGID_2_);
+  stroke-miterlimit: 10;
+}
+.st11 {
+  fill: url(#SVGID_3_);
+}
+.st12 {
+  fill: none;
+  stroke: url(#SVGID_4_);
+  stroke-miterlimit: 10;
+}
+.st13 {
+  fill: url(#SVGID_5_);
+}
+.st14 {
+  fill: none;
+  stroke: url(#SVGID_6_);
+  stroke-miterlimit: 10;
+}
+.st15 {
+  fill: url(#SVGID_7_);
+  stroke: url(#SVGID_8_);
+  stroke-miterlimit: 10;
+}
+.st16 {
+  fill: none;
+  stroke: url(#SVGID_9_);
+  stroke-miterlimit: 10;
+}
+.st17 {
+  fill: none;
+  stroke: url(#SVGID_10_);
+  stroke-miterlimit: 10;
+}
+.st18 {
+  fill: #0c91bf;
+}
+.st19 {
+  fill: none;
+  stroke: #00fce8;
+  stroke-miterlimit: 10;
+}
+.st20 {
+  fill: #00fce8;
+}
+.st21 {
+  fill: #e72a8c;
+}
+.st22 {
+  fill: none;
+  stroke: #ff7989;
+  stroke-miterlimit: 10;
+}
+.st23 {
+  fill: #ff7989;
+}
+.st24 {
+  fill: url(#light4_1_);
+}
+.st25 {
+  fill: url(#light3_1_);
+}
+.st26 {
+  fill: url(#light2_1_);
+}
+.st27 {
+  fill: url(#light1_1_);
+}
+.st28 {
+  fill: #3c0351;
+}
+.st29 {
+  fill: #2d1159;
+}
+.st30 {
+  fill: #120628;
+}
+.st31 {
+  fill: #50056f;
+}
+.st32 {
+  opacity: 0.15;
+  fill: #ffffff;
+}
+.st33 {
+  fill: #00cdd8;
+}
+.st34 {
+  fill: #f73b31;
+}
+.st35 {
+  fill: #f9ba67;
+}
+.st36 {
+  opacity: 0.2;
+  fill: #00fce8;
+}
+.st37 {
+  opacity: 0.2;
+  fill: #f9ea98;
+}
+.st38 {
+  opacity: 0.1;
+  fill: url(#expansion4_1_);
+  stroke: #ffffff;
+  stroke-miterlimit: 10;
+}
+.st39 {
+  opacity: 0.3;
+  fill: url(#expansion3_1_);
+  stroke: #ffffff;
+  stroke-miterlimit: 10;
+}
+.st40 {
+  opacity: 0.6;
+  fill: url(#expansion2_1_);
+  stroke: #ffffff;
+  stroke-miterlimit: 10;
+}
+.st41 {
+  fill: url(#expansionone_1_);
+  stroke: #ffffff;
+  stroke-miterlimit: 10;
+}
+.st42 {
+  opacity: 0.3;
+  fill: url(#sun_x5F_gaz_1_);
+}
+.st43 {
+  opacity: 0.7;
+  fill: #ffffff;
+}
+.st44 {
+  opacity: 0.5;
+  fill: #f9ea98;
+}
+
+/* --- Intro --- */
+
+/* #journey {
+  animation: blink 1.5s ease-in alternate-reverse infinite;
+} */
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+#title_universe {
+  opacity: 0.4;
+  animation: intro 4s ease forwards;
+}
+@keyframes intro {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* --- 1 Big Bang --- */
+
+#point1 {
+  cursor: pointer;
+  fill: #fcf1cd;
+  animation: blink 1s alternate-reverse infinite;
+}
+
+.bigbang.explosion {
+  animation: exploseBigBang 2s ease alternate infinite;
+}
+
+@keyframes exploseBigBang {
+  from {
+    transform: none;
+  }
+  to {
+    /* transform: scale(-2, 2); */
+    transform: translate(20px, -80px) scale(1.2, 1.2) translate(-110px, -100px);
+  }
+}
+
+/* --- 2 Inflation --- */
+
+#point2 {
+  cursor: pointer;
+  animation: blink 1s alternate-reverse infinite;
+}
+
+#waves_5_.moving,
+#waves_4_.moving,
+#waves_3_.moving {
+  animation: moveDown 2s ease-out alternate infinite;
+}
+
+@keyframes moveDown {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateY(90px);
+  }
+}
+
+/* --- 3 Matter Fixed --- */
+
+#point3 {
+  cursor: pointer;
+  animation: blink 1s alternate-reverse infinite;
+}
+
+#radiation.slide {
+  animation: sliding 2s ease alternate infinite;
+}
+
+@keyframes sliding {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateX(-100px);
+  }
+}
+
+/* #hydrogen.rotating,
+#hydrogen_1_.rotating,
+#hydrogen_2_.rotating,
+#helium.rotating {
+  animation: rotatingAtoms 2s ease alternate infinite;
+}
+
+@keyframes rotatingAtoms {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* --- 4 CMB --- */
+#point4 {
+  cursor: pointer;
+  animation: blink 1s alternate-reverse infinite;
+}
+
+#light1_1_.shower,
+#light2_1_.shower {
+  animation: showering 2s ease-out alternate infinite;
+}
+
+@keyframes showering {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateX(100px);
+    transform: translateY(-100px);
+  }
+}
