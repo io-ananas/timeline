@@ -121,3 +121,16 @@ function expansion() {
   expansion3.classList.add("widen");
   expansion4.classList.add("widen");
 }
+
+// 9 Solar System
+let cloud = document.querySelector("#cloud");
+let sun = document.querySelector("#sun");
+
+let solarButtun = document.querySelector("#point9");
+
+solarButtun.addEventListener("click", solarBirth);
+
+function solarBirth() {
+  cloud.classList.add("solar");
+  sun.classList.add("solar");
+}
