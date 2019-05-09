@@ -528,3 +528,22 @@ body {
     opacity: 1;
   }
 }
+
+/* --- 10 Present --- */
+#point10 {
+  cursor: pointer;
+  animation: blink 1s alternate-reverse infinite;
+}
+
+#comet.shot {
+  animation: cometShotting 3s ease-out forwards;
+}
+@keyframes cometShotting {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(650px, -280px);
+    opacity: 0;
+  }
+}

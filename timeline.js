@@ -134,3 +134,14 @@ function solarBirth() {
   cloud.classList.add("solar");
   sun.classList.add("solar");
 }
+
+// 10 Present
+let comet = document.querySelector("#comet");
+
+let cometButtun = document.querySelector("#point10");
+
+cometButtun.addEventListener("click", cometShot);
+
+function cometShot() {
+  comet.classList.add("shot");
+}
