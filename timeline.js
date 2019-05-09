@@ -94,7 +94,6 @@ function starEvent() {
 }
 
 // 7 First Galaxies
-let galaxy1 = document.querySelector("#galaxy1");
 let galaxy2 = document.querySelector("#galaxy2");
 let galaxy3 = document.querySelector("#galaxy3");
 let galaxyButton = document.querySelector("#point7");
@@ -102,7 +101,23 @@ let galaxyButton = document.querySelector("#point7");
 galaxyButton.addEventListener("click", collision);
 
 function collision() {
-  galaxy1.classList.add("collide");
   galaxy2.classList.add("collide");
   galaxy3.classList.add("collide");
+}
+
+// 8 Expansion
+let expansion1 = document.querySelector("#expansion1");
+let expansion2 = document.querySelector("#expansion2");
+let expansion3 = document.querySelector("#expansion3");
+let expansion4 = document.querySelector("#expansion4");
+
+let expansionButtun = document.querySelector("#point8");
+
+expansionButtun.addEventListener("click", expansion);
+
+function expansion() {
+  expansion1.classList.add("widen");
+  expansion2.classList.add("widen");
+  expansion3.classList.add("widen");
+  expansion4.classList.add("widen");
 }
