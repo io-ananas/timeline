@@ -55,3 +55,15 @@ function showerLights() {
   light3.classList.add("shower");
   light4.classList.add("shower");
 }
+
+// 5 Dark Ages
+let gaz1 = document.querySelector("#gaz1");
+let gaz2 = document.querySelector("#gaz2");
+let gazButton = document.querySelector("#point5");
+
+gazButton.addEventListener("click", gazDispersion);
+
+function gazDispersion() {
+  gaz1.classList.add("dispersion");
+  gaz2.classList.add("dispersion");
+}
