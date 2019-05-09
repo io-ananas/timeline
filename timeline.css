@@ -358,3 +358,58 @@ body {
     opacity: 0.8;
   }
 }
+
+/* --- 6 First Stars --- */
+#point6 {
+  cursor: pointer;
+  animation: blink 1s alternate-reverse infinite;
+}
+
+#star1,
+#star5 {
+  opacity: 0;
+}
+
+#star1.birth,
+#star5.birth {
+  animation: birth1 5s 1s ease alternate infinite;
+}
+
+@keyframes birth1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#star2.birth,
+#star4.birth,
+#star6.birth {
+  animation: birth2 3s ease alternate infinite;
+}
+
+@keyframes birth2 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+#star3.birth,
+#star7.birth,
+#star8.birth {
+  animation: birth3 3s ease alternate infinite;
+}
+
+@keyframes birth3 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

@@ -67,3 +67,28 @@ function gazDispersion() {
   gaz1.classList.add("dispersion");
   gaz2.classList.add("dispersion");
 }
+
+// 6 First Stars
+let star1 = document.querySelector("#star1");
+let star2 = document.querySelector("#star2");
+let star3 = document.querySelector("#star3");
+let star4 = document.querySelector("#star4");
+let star5 = document.querySelector("#star5");
+let star6 = document.querySelector("#star6");
+let star7 = document.querySelector("#star7");
+let star8 = document.querySelector("#star8");
+
+let starButton = document.querySelector("#point6");
+
+starButton.addEventListener("click", starEvent);
+
+function starEvent() {
+  star1.classList.add("birth");
+  star2.classList.add("birth");
+  star3.classList.add("birth");
+  star4.classList.add("birth");
+  star5.classList.add("birth");
+  star6.classList.add("birth");
+  star7.classList.add("birth");
+  star8.classList.add("birth");
+}
