@@ -92,3 +92,17 @@ function starEvent() {
   star7.classList.add("birth");
   star8.classList.add("birth");
 }
+
+// 7 First Galaxies
+let galaxy1 = document.querySelector("#galaxy1");
+let galaxy2 = document.querySelector("#galaxy2");
+let galaxy3 = document.querySelector("#galaxy3");
+let galaxyButton = document.querySelector("#point7");
+
+galaxyButton.addEventListener("click", collision);
+
+function collision() {
+  galaxy1.classList.add("collide");
+  galaxy2.classList.add("collide");
+  galaxy3.classList.add("collide");
+}
