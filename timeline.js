@@ -1,4 +1,4 @@
-let counter = 0;
+// let counter = 0;
 
 // 1 Big Bang
 let explode = document.querySelector(".bigbang");
