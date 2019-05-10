@@ -111,9 +111,9 @@ let expansion2 = document.querySelector("#expansion2");
 let expansion3 = document.querySelector("#expansion3");
 let expansion4 = document.querySelector("#expansion4");
 
-let expansionButtun = document.querySelector("#point8");
+let expansionButton = document.querySelector("#point8");
 
-expansionButtun.addEventListener("click", expansion);
+expansionButton.addEventListener("click", expansion);
 
 function expansion() {
   expansion1.classList.add("widen");
@@ -126,9 +126,9 @@ function expansion() {
 let cloud = document.querySelector("#cloud");
 let sun = document.querySelector("#sun");
 
-let solarButtun = document.querySelector("#point9");
+let solarButton = document.querySelector("#point9");
 
-solarButtun.addEventListener("click", solarBirth);
+solarButton.addEventListener("click", solarBirth);
 
 function solarBirth() {
   cloud.classList.add("solar");
@@ -138,9 +138,9 @@ function solarBirth() {
 // 10 Present
 let comet = document.querySelector("#comet");
 
-let cometButtun = document.querySelector("#point10");
+let cometButton = document.querySelector("#point10");
 
-cometButtun.addEventListener("click", cometShot);
+cometButton.addEventListener("click", cometShot);
 
 function cometShot() {
   comet.classList.add("shot");
